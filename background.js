@@ -195,6 +195,10 @@ const urls_to_param_mappers = [{
         param_name: 'q'
     },
     {
+        urls: ["*://l.messenger.com/l.php?*"],
+        param_name: 'u'
+    },
+    {
         urls: ["*://www.google.com/url?*"],
         param_name: 'q'
     },
